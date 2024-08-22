@@ -1,0 +1,30 @@
+/* General Body Styling */
+body {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2.0em;
+    background: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock-container {
+    background-color: hsla(0, 0%, 2%, 0.419);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Styling for the Clock Text */
+#clock {
+    font-size: 3em;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 3px;
+}
